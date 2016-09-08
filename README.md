@@ -16,32 +16,23 @@ Next, install `eslint-plugin-tl2`:
 $ npm install eslint-plugin-tl2 --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-tl2` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-tl2`, `babel-eslint` and `eslint-plugin-react` globally.
 
 ## Usage
 
-Add `tl2` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `plugin:tl2/recommended` to the extends section of your `.eslintrc` configuration file:
 
 ```json
 {
-    "plugins": [
-        "tl2"
+    "extends": [
+        "plugin:tl2/recommended"
     ]
 }
 ```
 
+And now all rules for code styleguide are configured include eslint rules and eslint-plugin-react rules
 
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "tl2/rule-name": 2
-    }
-}
-```
-
-## Supported Rules
+## Custom Rules
 
 * [blankline-around-block-startline](docs/rules/blankline-around-block-startline.md): enforce blankline before block statement and on first line in body of block
 
