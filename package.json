@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-tl2",
+  "name": "@travelab/eslint-plugin-tl2",
   "version": "0.0.1",
   "description": "Code styleguide for Travelab2.0 frontend",
   "keywords": [
@@ -24,5 +24,16 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travelab/eslint-plugin-tl2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Travelab/eslint-plugin-tl2/issues"
+  },
+  "homepage": "https://github.com/Travelab/eslint-plugin-tl2#readme"
 }
