@@ -1,6 +1,6 @@
 {
   "name": "@travelab/eslint-plugin-tl2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Code styleguide for Travelab2.0 frontend",
   "keywords": [
     "eslint",
