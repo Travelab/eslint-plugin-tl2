@@ -1,13 +1,13 @@
 {
   "name": "@travelab/eslint-plugin-tl2",
   "version": "0.0.2",
-  "description": "Code styleguide for Travelab2.0 frontend",
+  "description": "Code styleguide for Travelab 2 frontend",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Travelab2.0",
+  "author": "Travelab",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
